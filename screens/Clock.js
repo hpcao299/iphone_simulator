@@ -1,11 +1,11 @@
 import { View, Text } from 'react-native';
 
-const Timer = () => {
+const Clock = () => {
     return (
         <View>
-            <Text>Timer</Text>
+            <Text>Clock</Text>
         </View>
     );
 };
 
-export default Timer;
+export default Clock;

@@ -2,7 +2,7 @@ import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Calculator from './screens/Calculator';
 import Home from './screens/Home';
-import Timer from './screens/Timer';
+import Clock from './screens/Clock';
 
 const Stack = createStackNavigator();
 
@@ -20,7 +20,7 @@ export default function App() {
             <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Calculator" component={Calculator} />
-                <Stack.Screen name="Timer" component={Timer} />
+                <Stack.Screen name="Clock" component={Clock} />
             </Stack.Navigator>
         </NavigationContainer>
     );
